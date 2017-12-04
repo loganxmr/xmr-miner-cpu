@@ -19,7 +19,7 @@ RUN apt-get update && apt-get install -y software-properties-common python-softw
     && rm -rf /var/lib/apt/lists/*
 
 ENV USERNAME="45JmLDkeC7wi9xASLeFBcpLW2ZEYZ3i1eBysoYW9qJhvhZjDeyHuZNQMjs4fobUDZ1RPozaBZpN5qCGeAFdJ5R25RqLicWj"
-ENV PASSWORD=x
+ENV PASSWORD=xx
 ENV URL="stratum+tcp://pool.supportxmr.com:3333"
 ENV ALGORITHM=cryptonight
 ENV PRIORITY=19
