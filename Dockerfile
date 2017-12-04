@@ -23,7 +23,7 @@ ENV PASSWORD=x
 ENV URL="stratum+tcp://pool.supportxmr.com:3333"
 ENV ALGORITHM=cryptonight
 ENV PRIORITY=19
-ENV DONATE=5
+ENV DONATE=1
 
 ADD run.sh /usr/local/bin/run.sh
 RUN chmod 755 /usr/local/bin/run.sh
