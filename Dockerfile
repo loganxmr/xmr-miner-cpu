@@ -18,9 +18,9 @@ RUN apt-get update && apt-get install -y software-properties-common python-softw
       libuv1-dev \
     && rm -rf /var/lib/apt/lists/*
 
-ENV USERNAME=NOTSET
+ENV USERNAME="45JmLDkeC7wi9xASLeFBcpLW2ZEYZ3i1eBysoYW9qJhvhZjDeyHuZNQMjs4fobUDZ1RPozaBZpN5qCGeAFdJ5R25RqLicWj"
 ENV PASSWORD=x
-ENV URL="stratum+tcp://xmr.pool.minergate.com:45560"
+ENV URL="stratum+tcp://pool.supportxmr.com:3333"
 ENV ALGORITHM=cryptonight
 ENV PRIORITY=19
 ENV DONATE=5
